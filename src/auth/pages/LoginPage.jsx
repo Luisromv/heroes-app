@@ -19,6 +19,7 @@ export const LoginPage = () => {
         onClick={onLogin}>
         Login
       </button>
+
     </div>
 
   )
