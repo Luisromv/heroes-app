@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const charactersByHero = ({ alter_ego, characters}) => {
+const CharactersByHero = ({ alter_ego, characters}) => {
     // if (alter_ego === characters) {
     //     return(<></>);
     // }
@@ -36,7 +36,7 @@ export const HeroCard = ({
                         (alter_ego !== characters) && charactersByHero
                         (alter_ego !== characters) && (<p>{characters}</p>)
                     } */}
-                    <charactersByHero characters={ characters } alter_ego={ alter_ego }/>
+                    <CharactersByHero characters={ characters } alter_ego={ alter_ego }/>
 
                     <p className='card-text'>
                         <small className='text-muted'>{first_appearance}</small>
